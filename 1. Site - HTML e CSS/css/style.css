@@ -1,0 +1,117 @@
+body {
+    background-color: #d6d6d6;
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Classes */
+.container {
+    background-color: #f9f9f9;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.banner {
+    background-color: rgb(119, 171, 230);
+    height: 150px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.menu {
+    background-color: rgb(223, 135, 108);
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: #131313;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.menu a:hover {
+    background-color: rgb(216, 103, 103);
+    transition: 0.5s;
+}
+
+
+.corpo {
+    min-height: 350px;
+    padding: 35px;
+}
+
+.rodape {
+    background-color: #232323;
+    color: #999999;
+    padding: 35px;
+    height: 150px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.rodape a:hover {
+    color: #F9F9F9;
+}
+
+.links {
+    /* border: solid 1px green; */
+    display: inline-block;
+    width: 22%;
+    vertical-align: top; /*alinhamento vertical fica no topo dai, ele 
+    começa de cima para baixo dai*/
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.conteudo {
+    /* border: solid 1px rgb(9, 107, 255); */
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.redes-sociais {
+    /*border: dashed 1px rgb(246, 255, 120); dashed é borda pontilhada*/
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.redes-sociais img {
+    width: 32px;
+    vertical-align: middle; /*alinhamento vertical no meio, para ficar centralizado 
+    com a escrita Facebook*/
+}
+
+
+ 
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:active {
+    color: rgb(241, 241, 241);
+}
+
+a:hover {
+    color: rgb(53, 60, 122);
+}
